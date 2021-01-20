@@ -1,0 +1,207 @@
+/*google font*/
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Lobster&family=Patua+One&family=Rubik:wght@300&family=Sniglet&family=Poppins&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --Snigle-font: "Sniglet", cursive;
+    --Rubik: "Rubik", cursive;
+    --Patua: "Patua One", cursive;
+    --Lobster: "Lobster", cursive;
+    --Poppins: "Poppins", cursive;
+    --light-black: #2e2c2caf;
+    --bggardient: linear-gradient(to bottom,
+            #28febd,
+            #1db688);
+    --light-gray: rgba(255, 255, 255, 0.877);
+}
+
+body {
+    background: var(--bggardient);
+}
+
+/*navbar side on searchbar*/
+.navbar {
+    color: whitesmoke;
+    font-weight: bold;
+    font-family: var(--Poppins);
+    background-color: #121212;
+}
+
+.navbar img {
+    height: 40px;
+    width: 40px;
+}
+
+.navbar a {
+    color: whitesmoke;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navbar .input-group {
+    justify-content: center;
+}
+
+.navbar .col-lg-4 {
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.col-lg-4,
+#login+#signin {
+    text-align: center;
+    padding-right: 4%;
+    padding-left: 4%;
+}
+
+#signin:hover {
+    color: #19e6bd;
+    text-decoration: underline;
+}
+
+#login:hover {
+    color: #19e6bd;
+    text-decoration: underline;
+}
+
+.navbar #login {
+    color: #19e6bd;
+    text-decoration: underline;
+}
+
+.navbar {
+    align-content: center;
+}
+
+header button {
+    background: var(--bggardient);
+    outline: none;
+}
+
+/*on the navigation home*/
+.nav-bar {
+    background-color: #121212;
+}
+
+.nav-bar a {
+    color: whitesmoke;
+    font-family: var(--Poppins);
+}
+
+.nav-bar a:hover {
+    color: #19e6bd;
+    text-decoration: underline;
+}
+
+/*main of the page*/
+.container {
+    font-family: var(--Poppins);
+}
+
+*:focus {
+    outline: none;
+}
+
+h1 {
+    font-weight: bolder;
+    padding-bottom: 20px;
+}
+
+.image {
+    margin-top: 30%;
+}
+
+.image img {
+    width: 50vmin;
+    height: 50vmin;
+}
+
+.login {
+    padding: 4% 4% 4% 4%;
+    border-radius: 4px;
+    margin-top: 23%;
+    margin-bottom: 23.5%;
+    background-color: white;
+}
+
+.container input[type=text],
+.container input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border-radius: 25px;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+/*for the login button*/
+.forbtn {
+    text-align: center;
+    padding-top: 3%;
+}
+
+.logbtn {
+    color: whitesmoke;
+    background-color: #0f5b44;
+    width: 70%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 20px;
+    border: #0f5b44;
+}
+
+.logbtn:hover {
+    opacity: 0.8;
+}
+
+.logbtn:focus {
+    border: none;
+    outline: none;
+}
+
+.login {
+    background: var(--bggardient);
+    box-shadow: 10px 10px 5px grey;
+}
+
+span .psw {
+    padding-top: 5%;
+    padding-right: 30%;
+}
+
+span a {
+    color: darkmagenta;
+}
+
+.newhere {
+    padding-top: 5%;
+    text-align: center;
+}
+
+/*on the footer*/
+footer {
+    background-color: rgba(0, 0, 0, 0.885);
+    overflow-x: hidden;
+    padding: 2vmin 2vmin;
+}
+
+#foots h1 {
+    color: whitesmoke;
+}
+
+#foots p {
+    color: whitesmoke;
+}
+
+footer .input-group .input-group-text {
+    background: var(--bggardient);
+    border: none;
+}
+
+footer .column i+i {
+    padding: 0.05em;
+}

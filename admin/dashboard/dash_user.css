@@ -1,0 +1,303 @@
+/*google font*/
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Lobster&family=Patua+One&family=Rubik:wght@300&family=Sniglet&family=Poppins&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body{
+  width: auto;
+  height: auto;
+}
+
+:root {
+  --Snigle-font: "Sniglet", cursive;
+  --Rubik: "Rubik", cursive;
+  --Patua: "Patua One", cursive;
+  --Lobster: "Lobster", cursive;
+  --Poppins: "Poppins", cursive;
+  --light-black: #2e2c2caf;
+  --bggardient: linear-gradient(to bottom,
+          #28febd,
+          #1db688);
+  --light-gray: rgba(255, 255, 255, 0.877);
+}
+
+body{
+  background: var(--bggardient);
+}
+
+#container-fluid{
+  min-height: 100%;
+}
+
+#main{
+  overflow:auto;
+  padding-bottom: 100%;
+}
+
+/*nav part on search and logo */
+.navbar {
+    color: whitesmoke;
+    font-weight: bold;
+    font-family: var(--Poppins);
+    background-color: #121212;
+}
+
+.navbar img {
+    height: 40px;
+    width: 40px;
+}
+
+
+.col-lg-4,
+#profile {
+    text-align: center;
+}
+
+#profile:hover {
+    color: #19e6bd;
+    text-decoration: underline;
+}
+
+.navbar .input-group {
+    justify-content: center;
+}
+
+.navbar .col-lg-4 {
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.navbar {
+    align-content: center;
+}
+
+header button {
+    background: var(--bggardient);
+}
+
+
+
+/*for footer*/
+footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  height: auto;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.885);
+
+}
+
+#rights{
+  text-align: center;
+}
+
+
+/* ADMIN PROFILE */
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: auto;
+  margin-bottom: 2%;
+}
+
+.titlepage {
+  text-align: left;
+  padding: 0 0 20px 30px;
+}
+
+.profile-part {
+  padding: 30px 0 30px 0;
+}
+
+.container-1 {
+  text-align: center;
+  padding: 30px 0 30px 0;
+  border: 1px solid lightgray;
+  background-color: white;
+}
+
+.display-photo {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: 2px solid black;
+  margin-bottom: 20px;
+}
+
+.btn .editbtn {
+  margin-top: 20px;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+.for-checkout-info .editbtn {
+  color: whitesmoke;
+  background-color: #1db688;
+  border: #1db688;
+  padding: 5px 25px 5px 25px;
+}
+
+.editbtn:hover {
+  background-color: #0f5b44;
+  border: #0f5b44;
+  padding: 5px 25px 5px 25px;
+  transition: all .3s ease-in;
+}
+
+/*TABLE*/
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 6px solid rgba(27, 29, 26, 0.829);
+  background-color: white;
+}
+
+.table-box{
+  width: 100%;
+  height:400px;
+  overflow-y:auto;
+  overflow-x:auto;
+}
+
+th, td, tr{
+  text-align: center;
+  padding: 18px;
+
+}
+
+tr:nth-child(even){
+  background-color: #f2f2f2
+}
+
+.acc_id{
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+.page-title{
+  padding-top: 20px;
+  margin-bottom: 20px;
+  margin-top: 200;
+  font-size: 50px;
+}
+
+/*Action Buttons*/
+
+
+.publish{
+  color: green;
+}
+
+.edit{
+  color: blue;
+}
+
+.delete{
+  color: red;
+}
+
+.publish:link{
+  color:green;
+}
+
+
+.publish:visited{
+  color:green;
+}
+
+.publish:hover{
+  text-decoration: underline green;
+}
+
+.publish:active{
+  color: green;
+}
+
+
+.edit:link{
+  color:blue;
+}
+
+
+.edit:visited{
+  color:blue;
+}
+
+.edit:hover{
+  text-decoration: underline blue;
+}
+
+.edit:active{
+  color: blue;
+}
+
+.delte:link{
+  color:red;
+}
+
+
+.delete:visited{
+  color:red;
+}
+
+.delete:hover{
+  text-decoration: underline red;
+}
+
+.delete:active{
+  color: red;
+}
+
+/* SIDEBAR CSS */
+
+  .sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    position: absolute;
+    height: auto;
+    overflow:auto;
+  }
+  
+  .sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
+   
+  .sidebar a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+  
+  
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }
+  
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
+
+  

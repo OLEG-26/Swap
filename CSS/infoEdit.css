@@ -1,0 +1,176 @@
+/*google font*/
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Lobster&family=Patua+One&family=Rubik:wght@300&family=Sniglet&family=Poppins&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --Snigle-font: "Sniglet", cursive;
+    --Rubik: "Rubik", cursive;
+    --Patua: "Patua One", cursive;
+    --Lobster: "Lobster", cursive;
+    --Poppins: "Poppins", cursive;
+    --light-black: #2e2c2caf;
+    --bggardient: linear-gradient(to bottom,
+            #28febd,
+            #1db688);
+    --light-gray: rgba(255, 255, 255, 0.877);
+}
+
+/*navbar for logo and search bar*/
+.navbar {
+    color: whitesmoke;
+    font-weight: bold;
+    font-family: var(--Poppins);
+    background-color: #121212;
+}
+
+.navbar img {
+    height: 40px;
+    width: 40px;
+}
+
+.navbar a {
+    color: whitesmoke;
+    text-align: center;
+    text-decoration: none;
+}
+
+.ml-4 {
+    text-align: center;
+}
+
+.ml-4:hover {
+    color: #19e6bd;
+    text-decoration: underline;
+}
+
+.col-lg-4,
+#profile {
+    text-align: center;
+}
+
+.navbar .input-group {
+    justify-content: center;
+}
+
+.navbar .col-lg-4 {
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.navbar {
+    align-content: center;
+}
+
+header button {
+    background: var(--bggardient);
+}
+
+/*navbar for home button*/
+.nav-bar {
+    background-color: #121212;
+}
+
+.nav-bar a {
+    color: whitesmoke;
+    font-family: var(--Poppins);
+}
+
+.nav-bar a:hover {
+    color: #19e6bd;
+    text-decoration: underline;
+}
+
+#profile {
+    color: #19e6bd;
+    text-decoration: underline;
+}
+
+.nav-bar .active {
+    color: #19e6bd;
+    text-decoration: underline;
+}
+
+/*main part*/
+/*the textboxs*/
+.information-mar input[type=text] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+/*the buttons*/
+.btn {
+    margin: 0 0 20px 0;
+}
+
+/*the save button*/
+.savebtn {
+    color: whitesmoke;
+    background-color: #1db688;
+    border: #1db688;
+    border-radius: 3px;
+    padding: 5px 25px 5px 25px;
+    margin: 0 10px 0 0;
+}
+
+.savebtn:focus {
+    outline: none;
+}
+
+.savebtn:hover {
+    color: whitesmoke;
+    background-color: #0f5b44;
+    border: #0f5b44;
+    transition: all .3s ease-in;
+}
+
+/*for cancel button*/
+.btn .cancelbtn {
+    text-decoration: none;
+}
+
+.cancelbtn {
+    color: whitesmoke;
+    padding: 6.5px 25px 6.5px 25px;
+    margin: 0 0 0 10px;
+    background-color: darkgray;
+    border: darkgray;
+    border-radius: 3px;
+}
+
+.cancelbtn:hover {
+    color: whitesmoke;
+    transition: all .3s ease-in;
+    background-color: gray;
+    border: gray;
+}
+
+/*for footer*/
+footer {
+    background-color: rgba(0, 0, 0, 0.885);
+    overflow-x: hidden;
+    padding: 2vmin 2vmin;
+}
+
+#foots h1 {
+    color: whitesmoke;
+}
+
+#foots p {
+    color: whitesmoke;
+}
+
+footer .input-group .input-group-text {
+    background: var(--bggardient);
+    border: none;
+}
+
+footer .column i+i {
+    padding: 0.05em;
+}

@@ -1,0 +1,193 @@
+/*google font*/
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Lobster&family=Patua+One&family=Rubik:wght@300&family=Sniglet&family=Poppins&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --Snigle-font: "Sniglet", cursive;
+    --Rubik: "Rubik", cursive;
+    --Patua: "Patua One", cursive;
+    --Lobster: "Lobster", cursive;
+    --Poppins: "Poppins", cursive;
+    --light-black: #2e2c2caf;
+    --bggardient: linear-gradient(to bottom,
+            #28febd,
+            #1db688);
+    --light-gray: rgba(255, 255, 255, 0.877);
+}
+
+/*navbar for logo and search bar*/
+.navbar {
+    color: whitesmoke;
+    font-weight: bold;
+    font-family: var(--Poppins);
+    background-color: #121212;
+}
+
+.navbar img {
+    height: 40px;
+    width: 40px;
+}
+
+.navbar a {
+    color: whitesmoke;
+    text-align: center;
+    text-decoration: none;
+}
+
+.ml-4 {
+    text-align: center;
+}
+
+.ml-4:hover {
+    color: #19e6bd;
+    text-decoration: underline;
+}
+
+
+.col-lg-4,
+#profile {
+    text-align: center;
+}
+
+.navbar .input-group {
+    justify-content: center;
+}
+
+.navbar .col-lg-4 {
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.navbar {
+    align-content: center;
+}
+
+header button {
+    background: var(--bggardient);
+}
+
+/*navbar for home button*/
+.nav-bar {
+    background-color: #121212;
+}
+
+.nav-bar a {
+    color: whitesmoke;
+    font-family: var(--Poppins);
+}
+
+.nav-bar a:hover {
+    color: #19e6bd;
+    text-decoration: underline;
+}
+
+#profile {
+    color: #19e6bd;
+    text-decoration: underline;
+}
+
+.nav-bar .active {
+    color: #19e6bd;
+    text-decoration: underline;
+}
+
+/*for main*/
+/*for profile part*/
+
+html,
+main {
+    background-color: whitesmoke;
+}
+
+main {
+    font-family: var(--Poppins);
+}
+
+.titlepage {
+    text-align: left;
+    padding: 0 0 20px 30px;
+}
+
+.profile-part {
+    padding: 30px 0 30px 0;
+}
+
+.container-1 {
+    text-align: center;
+    padding: 30px 0 30px 0;
+    border: 1px solid lightgray;
+    background-color: white;
+}
+
+.display-photo {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin-bottom: 20px;
+}
+
+
+/*info part*/
+.for-checkout-info {
+    margin-top: 20px;
+    padding: 20px 0 20px 30px;
+    border: 1px solid lightgray;
+    background-color: white;
+}
+
+.info {
+    padding-left: 40px;
+}
+
+/*button edit info*/
+.btn .editbtn {
+    margin-top: 20px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.for-checkout-info .editbtn {
+    color: whitesmoke;
+    background-color: #1db688;
+    border: #1db688;
+    padding: 5px 25px 5px 25px;
+}
+
+.editbtn:hover {
+    background-color: #0f5b44;
+    border: #0f5b44;
+    padding: 5px 25px 5px 25px;
+    transition: all .3s ease-in;
+}
+
+.dp_button {
+    text-decoration: none;
+}
+
+/*for footer*/
+footer {
+    background-color: rgba(0, 0, 0, 0.885);
+    overflow-x: hidden;
+    padding: 2vmin 2vmin;
+}
+
+#foots h1 {
+    color: whitesmoke;
+}
+
+#foots p {
+    color: whitesmoke;
+}
+
+footer .input-group .input-group-text {
+    background: var(--bggardient);
+    border: none;
+}
+
+footer .column i+i {
+    padding: 0.05em;
+}

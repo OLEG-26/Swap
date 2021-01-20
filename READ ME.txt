@@ -1,0 +1,9 @@
+
+
+URL /LINK
+
+Admin Page = http://localhost/swap/admin/mainpage/adminpage.html
+
+Admin Dashboard = http://localhost/swap/admin/dashboard/dashboard.html
+
+Admin Login page = http://localhost/swap/admin/login_admin.html

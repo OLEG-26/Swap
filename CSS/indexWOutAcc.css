@@ -1,0 +1,162 @@
+/*google font*/
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Lobster&family=Patua+One&family=Rubik:wght@300&family=Sniglet&family=Poppins&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --Snigle-font: "Sniglet", cursive;
+    --Rubik: "Rubik", cursive;
+    --Patua: "Patua One", cursive;
+    --Lobster: "Lobster", cursive;
+    --Poppins: "Poppins", cursive;
+    --light-black: #2e2c2caf;
+    --bggardient: linear-gradient(to bottom,
+            #28febd,
+            #1db688);
+    --light-gray: rgba(255, 255, 255, 0.877);
+}
+
+/*nav on the logo and search bar*/
+.navbar {
+    color: whitesmoke;
+    font-weight: bold;
+    font-family: var(--Poppins);
+    background-color: #121212;
+}
+
+.navbar img {
+    height: 40px;
+    width: 40px;
+}
+
+.navbar a {
+    color: whitesmoke;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.navbar .input-group {
+    justify-content: center;
+}
+
+.navbar .col-lg-4 {
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.col-lg-4,
+#login+#signin {
+    text-align: center;
+    padding-right: 4%;
+    padding-left: 4%;
+}
+
+#signin:hover {
+    color: #19e6bd;
+    text-decoration: underline;
+}
+
+#login:hover {
+    color: #19e6bd;
+    text-decoration: underline;
+}
+
+.navbar {
+    align-content: center;
+}
+
+header button {
+    background: var(--bggardient);
+}
+
+/*nav on home button*/
+
+.nav-bar {
+    background-color: #121212;
+}
+
+.nav-bar a {
+    color: whitesmoke;
+    font-family: var(--Poppins);
+}
+
+.nav-bar a:hover {
+    color: #19e6bd;
+    text-decoration: underline;
+}
+
+.nav-bar .active {
+    color: #19e6bd;
+    text-decoration: underline;
+}
+
+
+/*in main*/
+/*for cards*/
+.cards {
+    padding-top: 50px;
+}
+
+/*for cards img*/
+.cards img {
+    width: 100%;
+    height: 60%;
+    align-items: center;
+}
+
+/*for cards button*/
+.btnclk {
+    color: whitesmoke;
+    background-color: #1db688;
+    border: #1db688;
+    border-radius: 5px;
+    outline: none;
+    padding: 8px 8px 8px 8px;
+}
+
+.btnclk:hover {
+    color: whitesmoke;
+    background-color: #0f5b44;
+    border: #0f5b44;
+    border-radius: 5px;
+    outline: none;
+    padding: 8px 8px 8px 8px;
+    text-decoration: none;
+}
+
+.card {
+    width: 15rem;
+    height: 30rem;
+}
+
+.card:hover {
+    box-shadow: 10px 10px 5px lightgrey;
+}
+
+/*for footer*/
+footer {
+    background-color: rgba(0, 0, 0, 0.885);
+    overflow-x: hidden;
+    padding: 2vmin 2vmin;
+    bottom: 0;
+}
+
+#foots h1 {
+    color: whitesmoke;
+}
+
+#foots p {
+    color: whitesmoke;
+}
+
+footer .input-group .input-group-text {
+    background: var(--bggardient);
+    border: none;
+}
+
+footer .column i+i {
+    padding: 0.05em;
+}
