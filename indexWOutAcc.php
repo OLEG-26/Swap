@@ -55,7 +55,7 @@
       </header>
     
       <main>
-        <div class="cards text-center">
+        <div class="cards text-center"> 
           <div class="container-fluid p-0 m-0 align-items-center justify-content-center d-flex"> 
             <div class="row w-100 p-0 w-0"> 
 
