@@ -1,0 +1,11 @@
+ROLES TEAM 6 - BSIT 3A
+
+P.O / SCRUM MASTER : Angelo Baclaan
+
+Front-end Dev : Jerome Olano
+
+Back-end Dev : Jan Paolo Cortez
+
+Q.A Tester : Britney Sinday
+
+Data Admin : Alvin Lim
